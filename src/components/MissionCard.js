@@ -22,6 +22,7 @@ class MissionCard extends React.Component {
     );
   }
 }
+
 MissionCard.propTypes = {
   name: PropTypes.string,
   year: PropTypes.number,
