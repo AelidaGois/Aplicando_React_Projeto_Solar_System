@@ -2,3 +2,41 @@
   text-align: center;
 }
 
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2018/05/06/22/13/space-3379658_960_720.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}
+
+header {
+  color: rgb(50, 135, 200);
+  text-align: center;
+  font-size: 40px;
+  height: 80px;
+}
+
+.solar {
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.card-planet {
+  border: 3px solid rgb(7, 115, 129);
+  text-align: center;
+  border-radius: 50%;
+}
+
+.card-planet :hover {
+  width: 150px;
+  height: 150px;
+}
+
+.img-planet {
+  width: 120px;
+  height: 120px;
+}
