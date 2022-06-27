@@ -15,20 +15,24 @@ header {
 .solar {
   align-items: center;
   display: flex;
+  height: 20px;
   justify-content: space-evenly;
   margin: auto;
-  margin-top: 20px;
-  width: 80%;
+  margin-top: 5%;
+  width: 100%;
 }
 
 .card-planet {
   border: 3px solid rgb(7, 115, 129);
-  border-radius: 50%;
+  border-radius: 100%;
   text-align: center;
+  transition: 0.3s;
 }
 
 .card-planet :hover {
+  filter: brightness(130%);
   height: 150px;
+  transition: 0.3s;
   width: 150px;
 }
 
