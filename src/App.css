@@ -1,8 +1,7 @@
 body {
   background-image: url('https://cdn.pixabay.com/photo/2018/05/06/22/13/space-3379658_960_720.jpg');
-  background-position: center center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 header {
@@ -14,6 +13,7 @@ header {
 
 .solar {
   align-items: center;
+  color: white;
   display: flex;
   height: 20px;
   justify-content: space-evenly;
@@ -30,6 +30,7 @@ header {
 }
 
 .card-planet :hover {
+  cursor: pointer;
   filter: brightness(130%);
   height: 150px;
   transition: 0.3s;
@@ -39,4 +40,41 @@ header {
 .img-planet {
   height: 120px;
   width: 120px;
+}
+
+.missions {
+  display: flex;
+  flex-wrap: wrap;
+  height: 60%;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  padding: 2px;
+  width: 40%;
+}
+
+.mission-card {
+  background-color: rgb(129, 200, 238);
+  border: 3px solid rgb(128, 86, 86);
+  border-radius: 10%;
+  color: black;
+  font-size: 15px;
+  height: 170px;
+  margin-bottom: 10px;
+  opacity: 0.5;
+  padding: 2px;
+  text-align: center;
+  width: 180px;
+}
+
+.mission-card:hover {
+  background-color: rgb(232, 138, 138);
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.mission-title {
+  color: white;
+  flex-basis: 100%;
+  text-align: center;
 }
